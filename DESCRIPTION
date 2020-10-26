@@ -1,11 +1,11 @@
-Package: darkpeak
+Package: @RobertASmith/darkpeak
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Dark Peak Analytics Ltd workflow
 Version: 0.1.0
 Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: Robert Smith <rasmith3@sheffield.ac.uk>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT
 Encoding: UTF-8
 LazyData: true

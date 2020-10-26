@@ -13,7 +13,7 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-hello_you <- function(who = "You") {
+hello <- function(who = "You") {
 
   print(paste("Hello ",who))
 }
