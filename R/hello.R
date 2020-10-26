@@ -13,7 +13,7 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-hello <- function(who = "You") {
+hello <- function() {
 
-  print(paste("Hello ",who))
+  print(paste("Hello Paul the date is:", Sys.Date()))
 }
