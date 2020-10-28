@@ -1,0 +1,48 @@
+---
+title: "darkpeakTemplate"
+author: Robert Smith
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    number_sections: yes
+    toc: yes
+  pdf_document: 
+    number_sections: yes
+    toc: yes
+  rmarkdown::html_document:
+    theme: cayman
+  html_notebook: 
+    number_sections: yes
+    theme: journal
+    toc: yes
+header-includes:
+  - \setlength{\parindent}{2em}
+  - \setlength{\parskip}{0em}
+date: February 05, 2018
+always_allow_html: yes
+#bibliography: bibliography.bib
+abstract: "Your text block here"
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+Writing Your Report
+
+Now that you've done the necessary preparation, you can begin writing your report.
+To start, keep in mind there is a simple structure you should follow.
+Below you'll see the sections in order along with descriptions of each part.
+Introduction Summarize the purpose of the report and summarize the data / subject.
+Include important contextual information about the reason for the report.
+Summarize your analysis questions, your conclusions, and briefly outline the report.
+Body - Four Sections Data Section - Include written descriptions of data and follow with relevant spreadsheets.
+Methods Section - Explain how you gathered and analyzed data.
+Analysis Section - Explain what you analyzed.
+Include any charts here.
+Results - Describe the results of your analysis.
+Conclusions Restate the questions from your introduction.
+Restate important results.
+Include any recommendations for additional data as needed.
+Appendix Include the details of your data and process here.
+Include any secondary data, including references.
+\# Introduction \# Data \# Methods \# Analysis \# Results \# Conclusions \# Appendix \# References

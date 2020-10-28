@@ -1,1 +1,3 @@
+useDynLib(darkpeak)
 exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
