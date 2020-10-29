@@ -7,8 +7,8 @@
 #' makeCEAC(total_costs = m_costs,  total_qalys = m_qalys, treatment = c("Apixaban (5mg bd)","Dabigatran (150mg bd)","Coumarin (INR 2-3)", "Edoxaban (60mg od)","Rivaroxaban (20mg od)", "No treatment"))
 #' @importFrom ggplot2 ggplot aes geom_line theme_minimal theme labs scale_color_manual scale_y_continuous
 
-makeCEAC <- function(total_costs,
-                     total_qalys,
+makeCEAC <- function(total_costs = example_TC,
+                     total_qalys = example_TQ,
                      treatment = c("treat 1","notreat")){
 
   n.treatments = length(treatment)

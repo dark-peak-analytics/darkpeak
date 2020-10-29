@@ -10,11 +10,11 @@
 #' comparitor = "Coumarin (INR 2-3)")
 #' @importFrom reshape2 melt ggplot2 ggplot aes geom_abline geom_line geom_vline geom_hline theme_minimal theme labs scale_color_manual scale_y_continuous stat_ellipse guides
 
-makeCEPlane <- function(total_costs = NULL,
-                        total_qalys = NULL,
+makeCEPlane <- function(total_costs = example_TC,
+                        total_qalys = example_TQ,
                         comparitor = "notreat" ,
                         treatment = "treat 1",
-                        thresh = NULL,
+                        thresh = 30000,
                         show_ellipse = F
 ){
 
@@ -63,7 +63,8 @@ makeCEPlane <- function(total_costs = NULL,
     if(show_ellipse){
       ce_plane_plot =
         ce_plane_plot +
-        ggplot2::stat_ellipse(data= incr_long[!(incr_long$Treatment %in% comparitor),], aes(x=incr_Q,y=incr_C,col=Treatment), type="norm", level=0.9,
+        ggplot2::stat_ellipse(data= incr_long[!(incr_long$Treatment %in% comparitor),],
+                              ggplot2::aes(x=incr_Q,y=incr_C,col=Treatment), type="norm", level=0.9,
                      segments =50)
     }
 
