@@ -7,5 +7,6 @@ Author: Robert Smith
 Maintainer: Who to complain to <rasmith@sheffield.ac.uk>
 Description: Package for Dark Peak Analytics work.
 License: What license is it under?
-Imports: Rcpp (>= 1.0.5)
+Imports: Rcpp (>= 1.0.5), ggplot2
 LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.1
