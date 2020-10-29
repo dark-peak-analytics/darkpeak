@@ -4,15 +4,7 @@
 \alias{makeCEPlane}
 \title{Function to make a Cost-effectiveness Plane plot from matrices of total costs and QALYs}
 \usage{
-makeCEPlane(
-  total_costs = NULL,
-  total_qalys = NULL,
-  comparitor = "Coumarin (INR 2-3)",
-  treatment = c("Apixaban (5mg bd)", "Dabigatran (150mg bd)", "Edoxaban (60mg od)",
-    "Rivaroxaban (20mg od)", "No treatment"),
-  thresh = NULL,
-  show_ellipse = F
-)
+makeCEPlane(total_costs = total_costs,total_qalys = total_qalys,comparitor = "treat 1",treatment = "notreat",thresh = 20000,show_ellipse = T)
 }
 \arguments{
 \item{total_costs}{A matrix of costs for PSA runs.}
@@ -28,8 +20,5 @@ a CE-Plane plot produced in ggplot.
 Function to make a Cost-effectiveness Plane plot from matrices of total costs and QALYs
 }
 \examples{
-makeCEPlane(total_costs = m_costs,
-total_qalys = m_qalys,
-treatment = c("Apixaban (5mg bd)","Dabigatran (150mg bd)","Coumarin (INR 2-3)", "Edoxaban (60mg od)","Rivaroxaban (20mg od)", "No treatment"),
-comparitor = "Coumarin (INR 2-3)")
+makeCEPlane(total_costs = example_TC,total_qalys = example_TQ,comparitor = "treat 1",treatment = "notreat",thresh = 20000,show_ellipse = T)
 }

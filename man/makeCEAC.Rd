@@ -7,8 +7,7 @@
 makeCEAC(
   total_costs,
   total_qalys,
-  treatment = c("Apixaban (5mg bd)", "Dabigatran (150mg bd)", "Coumarin (INR 2-3)",
-    "Edoxaban (60mg od)", "Rivaroxaban (20mg od)", "No treatment")
+  treatment = c("treat 1","notreat")
 )
 }
 \arguments{
@@ -25,5 +24,5 @@ a CEAC plot produced in ggplot.
 Function to make a CEAC plot from matrices of total costs and QALYs
 }
 \examples{
-makeCEAC(total_costs = m_costs,  total_qalys = m_qalys, treatment = c("Apixaban (5mg bd)","Dabigatran (150mg bd)","Coumarin (INR 2-3)", "Edoxaban (60mg od)","Rivaroxaban (20mg od)", "No treatment"))
+makeCEAC(total_costs = example_TC,total_qalys = example_TQ,treatment = c("treat 1","notreat"))
 }
