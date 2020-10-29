@@ -1,0 +1,15 @@
+citHeader("To cite darkpeak in publications use:")
+
+citEntry(
+  entry    = "Article",
+  title    = "Making health economic models Shiny: A tutorial",
+  author   = "Robert Smith & Paul Schneider",
+  journal  = "Wellcome Open Research",
+  year     = "2020",
+  volume   = "5",
+  number   = "69",
+  pages    = "69",
+  url      = "https://wellcomeopenresearch.org/articles/5-69",
+
+  textVersion = paste("Smith, Robert, and Paul Schneider. Making health economic models Shiny: A tutorial. Wellcome Open Research 5, no. 69 (2020): 69.")
+)
