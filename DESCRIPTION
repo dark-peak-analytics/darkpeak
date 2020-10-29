@@ -1,16 +1,11 @@
 Package: darkpeak
 Type: Package
-Title: Dark Peak Analytics Ltd workflow
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: Robert Smith <rasmith3@sheffield.ac.uk>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: MIT
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.1.1
-LinkingTo: 
-    Rcpp
-Imports: 
-    Rcpp
+Title: What the package does (short line)
+Version: 1.0
+Date: 2020-10-28
+Author: Robert Smith
+Maintainer: Who to complain to <rasmith@sheffield.ac.uk>
+Description: Package for Dark Peak Analytics work.
+License: What license is it under?
+Imports: Rcpp (>= 1.0.5)
+LinkingTo: Rcpp, RcppArmadillo
