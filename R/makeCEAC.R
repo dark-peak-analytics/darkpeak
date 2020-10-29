@@ -9,15 +9,13 @@
 
 makeCEAC <- function(total_costs,
                      total_qalys,
-                     treatment = c("Apixaban (5mg bd)","Dabigatran (150mg bd)","Coumarin (INR 2-3)",
-                                         "Edoxaban (60mg od)","Rivaroxaban (20mg od)", "No treatment")
-){
+                     treatment = c("treat 1","notreat")){
 
   n.treatments = length(treatment)
 
   # new color scheme
   legend_colors = c("#1B9E77","#D95F02","#7570B3","#E7298A","#5f9ea0","gray")
-  names(legend_colors) = c("Apixaban (5mg bd)","Dabigatran (150mg bd)","Edoxaban (60mg od)","Rivaroxaban (20mg od)","Coumarin (INR 2-3)","No treatment")
+  names(legend_colors) = c(paste("treat",1:5),"notreat")
   legend_colors = legend_colors[names(legend_colors) %in% treatment]
 
   # take what I need from the model output
