@@ -2,7 +2,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(total_qalys)
+#' @usage data(example_TQ)
 #'
 #' @format An object of class \code{"matrix"}.
 #'
@@ -14,4 +14,4 @@
 #' @source None
 #'
 #' @examples
-#' data(total_qalys)
+#' data(example_TQ)

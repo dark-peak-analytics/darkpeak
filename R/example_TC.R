@@ -2,7 +2,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(total_costs)
+#' @usage data(example_TC)
 #'
 #' @format An object of class \code{"matrix"}.
 #'
@@ -14,4 +14,4 @@
 #' @source None
 #'
 #' @examples
-#' data(total_costs)
+#' data(example_TC)
