@@ -1,5 +1,4 @@
 [![GitHub release](https://img.shields.io/badge/R-HEDS-green)](https://img.shields.io/badge/R-hello-green)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/RobertASmith/darkpeak?color=red&style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/RobertASmith/darkpeak?style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/RobertASmith/darkpeak?style=plastic)
@@ -11,18 +10,11 @@
 
 This package is for use by Robert Smith & Paul Schneider at the University of Sheffield and Dark Peak Analytics.
 
-Functionality:
-
-- Plot themes (for ggplot).
-- Colour schemes (for all visuals).
-- Commonly used custom functions (e.g. in plots in shiny, and incremental analysis too).
-- Markdown templates for reporting results (with header and logo etc).
-- Data for teaching (making markov models shiny parameters?).
-
-
-It takes a lot of time to document the package, so only include things that we will use regularly & to encourage consistency.
-
-
+- ArmaMarkovTDLoop uses C++ to speed up the running of time dependent cohort state transition models (where the transition probability matrix changes over time).
+- There are plot functions for CEAC plots and CE-Plane plots
+- There are colour schemes (for all visuals).
+- There is a markdown templates for reporting results (with header and logo etc).
+- Also data for teaching (making markov models shiny parameters?).
 
 [Robert Smith](https://www.linkedin.com/in/robert-smith-53b28438) <sup> 1,2 </sup>, [Paul Schneider](https://www.sheffield.ac.uk/scharr/staff-pgrs/studentprofiles/paulschneider) <sup> 1,2
 
