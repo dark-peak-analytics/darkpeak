@@ -1,8 +1,5 @@
 \name{ArmaMarkovFunctions}
 \alias{ArmaTDMarkovLoop}
-\alias{rcpparma_innerproduct}
-\alias{rcpparma_outerproduct}
-\alias{rcpparma_bothproducts}
 \title{Set of functions in the darkpeak package for cohort state transition models}
 \description{
   The ArmaTDMarkovLoop function can be used to speed up time dependant cohort state transition models (state transition models where the transition probability matrix changes over time).
