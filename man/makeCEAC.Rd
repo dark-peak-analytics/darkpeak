@@ -5,9 +5,11 @@
 \title{Function to make a CEAC plot from matrices of total costs and QALYs}
 \usage{
 makeCEAC(
-  total_costs,
-  total_qalys,
-  treatment = c("treat 1","notreat")
+  total_costs = example_TC,
+  total_qalys = example_TQ,
+  treatment = c("treat 1", "notreat"),
+  lambda_min = 0,
+  lambda_max = 50000
 )
 }
 \arguments{
@@ -16,6 +18,10 @@ makeCEAC(
 \item{total_qalys}{A matrix of QALYs for PSA runs.}
 
 \item{treatment}{A vector of treatment names (must match matrix column names).}
+
+\item{lambda_min}{Minimum of the x axis for the lambda plot}
+
+\item{lambda_max}{Maximum of the x axis for the lambda plot}
 }
 \value{
 a CEAC plot produced in ggplot.
@@ -24,5 +30,5 @@ a CEAC plot produced in ggplot.
 Function to make a CEAC plot from matrices of total costs and QALYs
 }
 \examples{
-makeCEAC(total_costs = example_TC,total_qalys = example_TQ,treatment = c("treat 1","notreat"))
+makeCEAC(total_costs = m_costs,  total_qalys = m_qalys, treatment = c("Apixaban (5mg bd)","Dabigatran (150mg bd)","Coumarin (INR 2-3)", "Edoxaban (60mg od)","Rivaroxaban (20mg od)", "No treatment"))
 }
