@@ -50,7 +50,7 @@ test_that("ArmaMarkov equals BaseRloop", {
   # test three different symmetric matrix dimensions:
   for(s in c(3,12,21)){
     # in each case test that the two approaches get equal answers
-    testthat::expect_equal(
+    testthat::expect_identical(
     ArmaTDMarkovLoop(m_TR = makeMarkovTrace(s), a_P = makeTransProbArray(s)),
     Rloopfunc(m_TR = makeMarkovTrace(s), a_P = makeTransProbArray(s))
   ) # end expect equal
@@ -84,4 +84,5 @@ test_that("ArmaMarkov is faster than BaseRloop", {
 
   }
 }) # end testthat.
+
 
