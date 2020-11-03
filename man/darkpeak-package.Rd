@@ -9,11 +9,7 @@
 \packageDescription{darkpeak}
 }
 \details{
-
-The DESCRIPTION file:
-\packageDESCRIPTION{darkpeak}
-\packageIndices{darkpeak}
-~~ An overview of how to use the package, including the most important functions ~~
+For more details see \code{\link[Dark Peak Analytics]{https://darkpeakanalytics.com}}
 }
 \author{
 \packageAuthor{darkpeak}
@@ -21,13 +17,12 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{darkpeak}
 }
 \references{
-~~ Literature or other references for background information ~~
+Smith, R. and Schneider, P., 2020. Making health economic models Shiny: A tutorial. Wellcome Open Research, 5(69), p.69.
 }
 \keyword{ package }
 \seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
+~~ \code{\link[Rcpp]{https://cran.r-project.org/web/packages/Rcpp/index.html}} ~~
 }
 \examples{
-~~ simple examples of the most important functions ~~
+See individual functions for examples or contact Rob.
 }
