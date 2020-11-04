@@ -17,6 +17,8 @@ createICERtable <- function(total_costs = example_TC,
                             ref_index = 1,
                             ci = T){
 
+  n_col = ncol(total_costs)
+
 
   # store mean costs and qalys from the model output
   c_f = function(x,d=2,ci=T){
@@ -42,9 +44,9 @@ createICERtable <- function(total_costs = example_TC,
   mean_Q = apply(total_qalys,2,c_f,3,ci)
 
   # calculate incremental vs warfarin
-  inc.C = cbind(total_costs[,1:6]-total_costs[,ref_index])
+  inc.C = cbind(total_costs[,1:n_col]-total_costs[,ref_index])
   inc.C = apply(inc.C,2,c_f,0,ci)
-  inc.Q = cbind(total_qalys[,1:6]-total_qalys[,ref_index])
+  inc.Q = cbind(total_qalys[,1:n_col]-total_qalys[,ref_index])
   inc.Q = apply(inc.Q,2,c_f,3,ci)
 
   NB20 = total_qalys * 20000 - total_costs
@@ -78,8 +80,8 @@ createICERtable <- function(total_costs = example_TC,
             options = list(colReorder = TRUE,       # this allows the user to reorder the columns in the table.
                            dom = 'tB',              # this allows buttons
                            buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
-                           columnDefs = list(list(width = '170px', targets = 0),list(visible=FALSE, targets=7)),
-                           rowGroup = list(dataSrc = 7),
+                           columnDefs = list(list(width = '170px', targets = 0),list(visible=FALSE, targets=n_col+1)),
+                           rowGroup = list(dataSrc = n_col+1),
                            initComplete = DT::JS("function(settings, json) {",
                                              "$(this.api().table().header()).css({'background-color': '#D3D3D3', 'color': '#000'});",
                                              "}")),
