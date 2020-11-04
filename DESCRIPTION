@@ -8,7 +8,7 @@ Maintainer: Robert A Smith <rasmith@sheffield.ac.uk>
 Description: Package created by Robert Smith & Paul Schneider to improve efficiency in Health Economic Modelling.
 License: Unpublished
 Imports: Rcpp (>= 1.0.5), ggplot2, reshape2
-LinkingTo: Rcpp, RcppArmadillo, testthat
+LinkingTo: Rcpp, RcppArmadillo, testthat, DT
 RoxygenNote: 7.1.1
 LazyData: true
 Suggests: testthat
