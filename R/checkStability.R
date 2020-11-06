@@ -149,7 +149,7 @@ dt_BSresults <- dt_BSresults[dt_BSresults$Metric == "Net Benefit",]
                   subtitle = paste0("Credible intervals & means based on reording the results table ",BS_samples, " times."))+
     ggplot2::ylab(label = "")+
     ggplot2::geom_line()+   # add lineplot
-    ggplot2::geom_ribbon(ggplot2::aes(ymin = min, ymax = max, fill = Strategy),alpha = 0.3,)+
+    ggplot2::geom_ribbon(ggplot2::aes(ymin = min, ymax = max, fill = Strategy),alpha = 0.3)+
     ggplot2::facet_wrap(~Metric,
                         nrow = 1,
                         scales =  "free_y")  # facet split
