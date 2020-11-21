@@ -14,7 +14,7 @@ arma::mat ArmaTDMarkovLoop(arma::mat m_TR, arma::cube& a_P )
         int rows = m_TR.n_rows;
 
         for(int i = 1; i < rows; i++){
-            m_TR.row(i) = m_TR.row(i-1) * a_P.slice(i);
+            m_TR.row(i) = m_TR.row(i-1) * a_P.slice(i-1);
         }
 
         return m_TR;
