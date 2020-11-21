@@ -18,12 +18,12 @@ makeTransProbArray <- function(simDim = 4){
   set.seed(100)
   # create an array from slicing this matrix
   array(
-    data = matrix(
-      runif(simDim  * simDim),
-      byrow = T,
-      nrow = simDim,
-      ncol = simDim
-    ),
+    data = #matrix(
+      runif(simDim  * simDim * 100),
+      #byrow = T,
+      #nrow = simDim,
+      #ncol = simDim
+   # ),
     dim = c(simDim, simDim, 100)
   )
 }
