@@ -12,4 +12,4 @@ LinkingTo: Rcpp, RcppArmadillo, testthat, DT, data.table
 RoxygenNote: 7.1.1
 LazyData: true
 Suggests: testthat
-Depends: data.table
+Depends: data.table, ggplot2
