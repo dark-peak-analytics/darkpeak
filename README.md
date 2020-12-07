@@ -11,7 +11,7 @@
 This package is for use by Robert Smith & Paul Schneider at the University of Sheffield and Dark Peak Analytics.
 
 - ArmaMarkovTDLoop uses C++ to speed up the running of time dependent cohort state transition models (where the transition probability matrix changes over time).
-- There are plot functions for CEAC plots and CE-Plane plots
+- There are plot functions for CEAC plots, CE-Plane plots, plots to check the stability of PSA results, a rankogram for cases where n_strategies >2.
 - There are colour schemes (for all visuals).
 - There is a markdown templates for reporting results (with header and logo etc).
 - Also data for teaching (making markov models shiny parameters?).
