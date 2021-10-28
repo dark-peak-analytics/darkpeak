@@ -13,16 +13,16 @@ ArmaTDMarkovLoop(m_TR,a_P)
 
 }
 \value{
-  \code{ArmaTDMarkovLoop()} returns a completed markov trace using initialised but empty trace \code{m_TR} with n+1 rows, using \code{a_P} time dependant transition probabilities in an array.
+  \code{
+    ArmaTDMarkovLoop()} returns a completed markov trace using initialised but empty trace \code{m_TR} with n+1 rows, using \code{a_P} time dependant transition probabilities in an array.
 }
 \details{
-  This function computes a markov trace using a time-dependant cohort state transition matrix. takes a markov Trace matrix, with the first row initialised (e.g. everyone healthy) and .
-}
+  This function computes a markov trace using a time-dependant cohort state transition matrix. takes a markov Trace matrix, with the first row initialised (e.g. everyone healthy) and .}
 \references{
   See the documentation for Armadillo, and RcppArmadillo, for more details.
-}
+    }
 \examples{
-  ArmaTDMarkovLoop(m_TR, a_P)
+  #ArmaTDMarkovLoop(m_TR, a_P)
 }
 \author{Robert Smith, Jack Smith}
 
