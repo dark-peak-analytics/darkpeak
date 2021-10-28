@@ -24,5 +24,5 @@ Smith, R. and Schneider, P., 2020. Making health economic models Shiny: A tutori
 ~~ \code{\link[Rcpp]{https://cran.r-project.org/web/packages/Rcpp/index.html}} ~~
 }
 \examples{
-See individual functions for examples or contact Rob.
+#See individual functions for examples or contact Rob.
 }
