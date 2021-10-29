@@ -1,4 +1,4 @@
-# ggplot2 <img src="man/figures/logo.png" align="right" width="120" />
+# darkpeak <img src="man/figures/logo.png" align="right" width="120" />
 
 
 [![GitHub release](https://img.shields.io/badge/R-HEDS-green)](https://img.shields.io/badge/R-hello-green)
@@ -9,7 +9,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/RobertASmith/darkpeak?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/RobertASmith/darkpeak/network/)
 ![R-CMD-Check](https://github.com/RobertASmith/darkpeak/actions/workflows/r_package_check.yml/badge.svg)
 
-# darkpeak package
 
 This package is for use by Robert Smith & Paul Schneider at the University of Sheffield and Dark Peak Analytics.
 
