@@ -1,3 +1,6 @@
+# ggplot2 <img src="man/figures/logo.png" align="right" width="120" />
+
+
 [![GitHub release](https://img.shields.io/badge/R-HEDS-green)](https://img.shields.io/badge/R-hello-green)
 ![GitHub last commit](https://img.shields.io/github/last-commit/RobertASmith/darkpeak?color=red&style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/RobertASmith/darkpeak?style=plastic)
