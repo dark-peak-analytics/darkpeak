@@ -5,7 +5,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/RobertASmith/darkpeak?color=red&style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/RobertASmith/darkpeak?style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/RobertASmith/darkpeak?style=plastic)
-<br>
 [![GitHub forks](https://img.shields.io/github/forks/RobertASmith/darkpeak?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/RobertASmith/darkpeak/network/)
 ![R-CMD-Check](https://github.com/RobertASmith/darkpeak/actions/workflows/r_package_check.yml/badge.svg)
 
