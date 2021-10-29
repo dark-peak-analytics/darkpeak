@@ -1,4 +1,4 @@
-# darkpeak <img src="man/figures/logo.png" align="right" width="120" />
+# darkpeak <img src="man/figures/logo_concise.PNG" align="right" width="120" />
 
 
 [![GitHub release](https://img.shields.io/badge/R-HEDS-green)](https://img.shields.io/badge/R-hello-green)
