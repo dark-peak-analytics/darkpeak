@@ -4,7 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/RobertASmith/darkpeak?style=plastic)
 <br>
 [![GitHub forks](https://img.shields.io/github/forks/RobertASmith/darkpeak?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/RobertASmith/darkpeak/network/)
-![example workflow](https://github.com/RobertASmith/darkpeak/actions/workflows/r_package_check/badge.svg)
+![example workflow](https://github.com/RobertASmith/darkpeak/actions/workflows/r_package_check.yml/badge.svg)
 
 # darkpeak package
 
