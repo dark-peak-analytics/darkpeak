@@ -8,7 +8,7 @@
 ![R-CMD-Check](https://github.com/RobertASmith/darkpeak/actions/workflows/r_package_check.yml/badge.svg)
 
 
-This package is for use by Robert Smith & Paul Schneider at the University of Sheffield and Dark Peak Analytics.
+This package is for use by Robert Smith & Paul Schneider at the University of Sheffield and Dark Peak Analytics
 
 - ArmaMarkovTDLoop uses C++ to speed up the running of time dependent cohort state transition models (where the transition probability matrix changes over time).
 
