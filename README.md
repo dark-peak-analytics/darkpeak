@@ -7,8 +7,23 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/RobertASmith/darkpeak?style=plastic)
 ![R-CMD-Check](https://github.com/RobertASmith/darkpeak/actions/workflows/r_package_check.yml/badge.svg)
 
+This package was created by Robert Smith & Paul Schneider at the University of Sheffield and Dark Peak Analytics to speed up time dependent markov models.
 
-This package is for use by Robert Smith & Paul Schneider at the University of Sheffield and Dark Peak Analytics
+## Installation
+
+Install the development version of the package using the devtools package.
+
+``` r
+remotes::install_github("RobertASmith/darkpeak")
+```
+
+## Quick start
+
+Load the package.
+
+``` r
+library(darkpeak)
+```
 
 - ArmaMarkovTDLoop uses C++ to speed up the running of time dependent cohort state transition models (where the transition probability matrix changes over time).
 
