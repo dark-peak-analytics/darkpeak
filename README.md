@@ -6,6 +6,8 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/RobertASmith/darkpeak?style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/RobertASmith/darkpeak?style=plastic)
 ![R-CMD-Check](https://github.com/RobertASmith/darkpeak/actions/workflows/r_package_check.yml/badge.svg)
+![Coverage](https://github.com/RobertASmith/darkpeak/actions/workflows/test-coverage.yaml/badge.svg)
+
 
 This package was created by Robert Smith & Paul Schneider at the University of Sheffield and Dark Peak Analytics to speed up time dependent markov models.
 
