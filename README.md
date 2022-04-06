@@ -55,7 +55,15 @@ Run using the following:
 ArmaTDMarkovLoop(m_TR, a_P)
 
 ```
-This results in a significantly faster model run than the equivalent in base R:
+This results in a significantly faster model run than the equivalent in base R, the below is for a state transition model with 4 health states and 1000 periods.
+
+| Unit: milliseconds | | | |
+| Method       | minimum  | mean       | maximum     |
+|--------------|--------- |------------| ------------|
+| Rcpp         | 48.2     | 58.2       | 175.6       |
+| Base R       | 160.4    | 197.9      | 391.2       |
+
+
 
 <img src="man/figures/microbenchmark.png" align="center" width="300" />
 
