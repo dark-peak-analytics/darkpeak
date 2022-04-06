@@ -55,7 +55,8 @@ Run using the following:
 ArmaTDMarkovLoop(m_TR, a_P)
 
 ```
-
+This results in a significantly faster model run than the equivalent in base R.
+<img src="man/figures/microbenchmark.png" align="center" width="400" />
 
 - There are plot functions for CEAC plots, CE-Plane plots, plots to check the stability of PSA results, a rankogram for cases where n_strategies >2.
 - There are colour schemes (for all visuals).
