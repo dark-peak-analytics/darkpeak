@@ -59,7 +59,7 @@ This results in a significantly faster model run than the equivalent in base R, 
 
 | Method       | minimum  | mean       | maximum     |
 |--------------|--------- |------------| ------------|
-| Rcpp         | 48.2     | 58.2       | 175.6       |
+| darkpeak::ArmaTDMarkovLoop  | 48.2     | 58.2       | 175.6       |
 | Base R       | 160.4    | 197.9      | 391.2       |
 
 The Rcpp version runs approximately in approximately 30% of the time of the Base R version, which can make a material difference (e.g. when incorporated into a shiny app a reduction in run-time from 30 seconds to 9 seconds may avoid user frustration, or a model with a 2 hour run-time running in just over 30mins may make it feasible for a meeting).
