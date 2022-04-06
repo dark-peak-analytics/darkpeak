@@ -55,17 +55,16 @@ Run using the following:
 ArmaTDMarkovLoop(m_TR, a_P)
 
 ```
-This results in a significantly faster model run than the equivalent in base R, the below is for a state transition model with 4 health states and 1000 periods.
+This results in a significantly faster model run than the equivalent in base R, the below is for a state transition model with 4 health states run over 1000 periods. The units are milliseconds.
 
-| Unit: milliseconds | | | |
 | Method       | minimum  | mean       | maximum     |
 |--------------|--------- |------------| ------------|
 | Rcpp         | 48.2     | 58.2       | 175.6       |
 | Base R       | 160.4    | 197.9      | 391.2       |
 
+The Rcpp version runs approximately in approximately 30% of the time of the Base R version, which can make a material difference (e.g. when incorporated into a shiny app a reduction in run-time from 30 seconds to 9 seconds may avoid user frustration, or a model with a 2 hour run-time running in just over 30mins may make it feasible for a meeting).
 
-
-<img src="man/figures/microbenchmark.png" align="center" width="300" />
+<img src="man/figures/microbenchmark.png" align="left" width="200" />
 
 - There are plot functions for CEAC plots, CE-Plane plots, plots to check the stability of PSA results, a rankogram for cases where n_strategies >2.
 - There are colour schemes (for all visuals).
